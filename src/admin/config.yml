@@ -1,8 +1,8 @@
 backend:
     name: git-gateway
 
-media_folder: "content/uploads"
-public_folder: "/uploads"
+media_folder: "static/images"
+public_folder: "/images"
 
 collections:
   - name: "posts"
@@ -14,4 +14,4 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Main image", name: "image", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "date"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "content", widget: "markdown"}

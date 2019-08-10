@@ -1,5 +1,5 @@
 module.exports = {
-	siteName: 'Gridsome',
+	siteName: 'Mariafermentos',
 	transformers: {
 		remark: {
 			externalLinksTarget: '_blank',
@@ -15,6 +15,7 @@ module.exports = {
 			use: '@gridsome/source-filesystem',
 			options: {
 				path: 'content/posts/**/*.md',
+				route: '/:slug',
 				typeName: 'Post',
 				remark: {}
 			}

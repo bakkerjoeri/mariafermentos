@@ -1,6 +1,6 @@
 ---
 title: Test
-image: /content/uploads/breadparty.png
+image: /images/breadparty.png
 date: 2019-06-18T07:27:24.361Z
 ---
 Doe maar!

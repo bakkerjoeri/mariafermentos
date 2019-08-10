@@ -1,7 +1,7 @@
 <template>
 	<div class="layout">
 		<header>
-			<h1>Mariafermentos</h1>
+			<g-link to="/"><h1>Mariafermentos</h1></g-link>
 		</header>
 		<main>
 			<slot/>
@@ -15,5 +15,9 @@
 <style lang="scss">
 	* {
 		box-sizing: border-box;
+	}
+	
+	header {
+		text-align: center;
 	}
 </style>
