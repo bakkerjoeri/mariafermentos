@@ -1,6 +1,6 @@
 ---
 title: Test
-image: /uploads/breadparty.png
+image: /uploads/img_8655.jpg
 date: 2019-06-18T07:27:24.361Z
-body: Hello
 ---
+Doe maar!
