@@ -12,6 +12,6 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Main image", name: "image", widget: "image"}
+      - {label: "Preview image", name: "image", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "content", widget: "markdown"}

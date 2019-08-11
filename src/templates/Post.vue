@@ -1,79 +1,79 @@
 <template>
-  <Layout>
-      <h1>
-        {{ $page.post.title }}
-      </h1>
-    
-	  <img :src="$page.post.image" />
-      <div v-html="$page.post.content" />
-  </Layout>
+	<Layout>
+		<article class="Post">
+			<h1 class="Post__title">
+				{{ $page.post.title }}
+			</h1>
+			
+			<div class="Post__meta">
+				Published on {{ $page.post.date }}
+			</div>
+			
+			<div
+				class="Post__body"
+				v-html="$page.post.content"
+			/>
+		</article?>
+		
+	</Layout>
 </template>
 
 <page-query>
 query Post ($path: String!) {
-  post: post (path: $path) {
-    title
-	image
-    path
-    date (format: "D. MMMM YYYY")
-    content
-  }
+	post: post (path: $path) {
+		title
+		image
+		path
+		date (format: "D MMMM YYYY")
+		content
+	}
 }
 </page-query>
 
 <style lang="scss">
-.post-title {
-  padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
-  text-align: center;
-}
-
-.post {
-
-  &__header {
-    width: calc(100% + var(--space) * 2);
-    margin-left: calc(var(--space) * -1);
-    margin-top: calc(var(--space) * -1);
-    margin-bottom: calc(var(--space) / 2);
-    overflow: hidden;
-    border-radius: var(--radius) var(--radius) 0 0;
-    
-    img {
-      width: 100%;
-    }
-
-    &:empty {
-      display: none;
-    }
-  }
-
-  &__content {
-    h2:first-child {
-      margin-top: 0;
-    }
-
-    p:first-of-type {
-      font-size: 1.2em;
-      color: var(--title-color);
-    }
-
-    img {
-      width: calc(100% + var(--space) * 2);
-      margin-left: calc(var(--space) * -1);
-      display: block;
-      max-width: none;
-    }
-  }
-}
-
-.post-comments {
-  padding: calc(var(--space) / 2);
-  
-  &:empty {
-    display: none;
-  }
-}
-
-.post-author {
-  margin-top: calc(var(--space) / 2);
-}
+	@import './../style/mixins/baseline.scss';
+	
+	.Post__title {
+		font-family: var(--font-family-headers);
+		font-size: calc(2 * #{var(--font-size)});
+		line-height: baseline(2);
+		text-align: center;
+	}
+	
+	.Post__meta {
+		margin-bottom: baseline(1);
+		font-family: var(--font-family-labels);
+		line-height: baseline(1);
+		text-align: center;
+	}
+	
+	.Post__main-visual {
+		max-width: 100%;
+		margin-bottom: baseline(1);
+	}
+	
+	.Post__body {
+		font-size: var(--font-size);
+		
+		h1, h2, h3, h4, h5, h6 {
+			margin-top: baseline(1);	
+			font-family: var(--font-family-headers);
+			line-height: baseline(2);
+		}
+		
+		p, ol, ul, blockquote {
+			margin-bottom: baseline(0.75);
+			font-family: var(--font-family-body);
+			line-height: baseline(1);
+		}
+		
+		ol, ul {
+			margin-top: 0;
+			padding-left: 1.25em;
+		}
+		
+		img {
+			display: block;
+		}
+	}
 </style>

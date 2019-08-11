@@ -1,0 +1,28 @@
+@import './reset.scss';
+@import './mixins/breakpoints.scss';
+@import './mixins/debug-baseline.scss';
+
+:root {
+	--content-width: calc(#{var(--font-size)} * 40);
+	--baseline: 32px;
+	--font-size: 16px;
+	--font-family-serif: Georgia, serif;
+	--font-family-sans-serif: sans-serif;
+	--font-family-body: var(--font-family-serif);
+	--font-family-headers: var(--font-family-sans-serif);
+	--font-family-labels: var(--font-family-sans-serif);
+	
+	@include breakpoint(tablet-up) {
+		--baseline: 34px;
+		--font-size: 17px;
+	}
+
+	@include breakpoint(laptop-up) {
+		--baseline: 36px;
+		--font-size: 18px;
+	}
+}
+
+html {
+	// @include debug-baseline(var(--baseline));
+}

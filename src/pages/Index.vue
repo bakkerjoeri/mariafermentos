@@ -1,15 +1,14 @@
 <template>
 	<Layout>
-		<div v-if="$page.allPost.edges.length" class="PostGrid">
+		<div v-if="$page.allPost.edges.length" class="Posts">
 			<g-link
 				v-for="(post, index) in $page.allPost.edges"
 				:key="index"
 				:to="post.node.path"
-				class="Post"
+				class="PostPreview"
 			>
 				<img :src="post.node.image" />
 				<h2>{{ post.node.title }}</h2>
-				<div v-html="post.node.content" />
 			</g-link>
 		</div>
 	</Layout>

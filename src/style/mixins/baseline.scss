@@ -1,0 +1,3 @@
+@function baseline($units) {
+	@return calc(var(--baseline) * #{$units});
+}

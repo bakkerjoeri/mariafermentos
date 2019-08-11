@@ -1,0 +1,40 @@
+$phablet: 600px;
+$tablet: 960px;
+$laptop: 1280px;
+$desktop: 1920px;
+
+@mixin breakpoint($point) {
+	@if $point == mobile-only {
+		@media (max-width: $phablet) {
+			@content;
+		}
+	}
+
+	@else if $point == desktop-up {
+		@media (min-width: $desktop) {
+			@content;
+		}
+	}
+
+	@else if $point == laptop-up {
+		@media (min-width: $laptop) {
+			@content;
+		}
+	}
+
+	@else if $point == tablet-up {
+		@media (min-width: $tablet) {
+			@content;
+		}
+	}
+
+	@else if $point == phablet-up {
+		@media (min-width: $phablet) {
+			@content;
+		}
+	}
+
+	@else {
+		@error "Invalid $breakpoint: #{$point}" ;
+	}
+}

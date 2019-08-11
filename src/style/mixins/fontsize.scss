@@ -1,0 +1,3 @@
+@function fontsize($units) {
+	@return calc(var(--font-size) * #{$units});
+}
