@@ -64,6 +64,11 @@
 		font-size: fontsize(1.5);
 		line-height: baseline(1.5);
 		
+		.PostPreview:hover &,
+		.PostPreview:focus & {
+			text-decoration: underline;
+		}
+		
 		@include breakpoint(phablet-up) {
 			font-size: fontsize(2);
 			line-height: baseline(2);

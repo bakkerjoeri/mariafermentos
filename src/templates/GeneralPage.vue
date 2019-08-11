@@ -1,12 +1,12 @@
 <template>
 	<Layout>
-		<article class="Post">
-			<h1 class="Post__title">
+		<article class="Page">
+			<h1 class="Page__title">
 				{{ $page.generalPage.title }}
 			</h1>
 			
 			<Contents
-				class="Post__body"
+				class="Page__body"
 				:content="$page.generalPage.content"
 			/>
 		</article>
@@ -37,26 +37,14 @@ query GeneralPage ($path: String!) {
 	@import './../style/mixins/baseline.scss';
 	@import './../style/mixins/breakpoints.scss';
 	
-	.Post__title {
+	.Page__title {
 		font-family: var(--font-family-headers);
 		font-size: fontsize(2);
 		line-height: baseline(2);
 		text-align: center;
 	}
 	
-	.Post__meta {
-		margin-bottom: baseline(1);
-		font-family: var(--font-family-labels);
-		line-height: baseline(1);
-		text-align: center;
-	}
-	
-	.Post__main-visual {
-		max-width: 100%;
-		margin-bottom: baseline(1);
-	}
-	
-	.Post__body {
+	.Page__body {
 		margin-bottom: baseline(3);
 	}
 </style>

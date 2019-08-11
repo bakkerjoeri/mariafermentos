@@ -10,7 +10,7 @@
 					src="/images/logo.png"
 				/>
 				<h1 class="SiteHeader__title">
-					maria fermentos
+					mariafermentos
 				</h1>
 			</g-link>
 			

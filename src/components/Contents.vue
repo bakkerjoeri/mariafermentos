@@ -61,5 +61,9 @@
 		img {
 			display: block;
 		}
+		
+		a {
+			color: inherit;
+		}
 	}
 </style>
