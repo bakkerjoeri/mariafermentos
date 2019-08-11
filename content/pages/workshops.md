@@ -1,4 +1,5 @@
 ---
 title: Sign up for a workshop
-content: >-
+content: And do the right thing.
 ---
+
