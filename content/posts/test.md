@@ -1,6 +1,6 @@
 ---
-title: Test
-image: /images/breadparty.png
+title: Taking care of your sourdough starter
+image: /images/how-to-make-your-own-sourdough-starter.jpg
 date: 2019-06-18T07:27:24.361Z
 content: >-
   In feugiat turpis eget lacus egestas faucibus.
