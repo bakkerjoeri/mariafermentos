@@ -1,7 +1,7 @@
 ---
 title: Basic sourdough bread
 image: /images/breadparty.png
-date: 2019-08-10T21:24:51.873Z
+date: 2019-07-14T21:24:51.873Z
 content: |-
   ## Ingredients for 2 loaves
 
