@@ -1,20 +1,20 @@
 <template>
-	<div class="Page">
-		<header class="Page__header">
+	<div class="Site">
+		<header class="SiteHeader">
 			<g-link
-				class="Page__logo"
+				class="SiteHeader__logo"
 				to="/"
 			>
 				<img
-					class="Page__logo-image"
+					class="SiteHeader__logo-image"
 					src="/images/logo.png"
 				/>
-				<h1 class="Page__title">
+				<h1 class="SiteHeader__title">
 					maria fermentos
 				</h1>
 			</g-link>
 			
-			<nav class="Page__menu Menu">
+			<nav class="SiteHeader__menu Menu">
 				<ul class="Menu__items">
 					<li class="Menu__item">
 						<g-link
@@ -43,7 +43,7 @@
 				</ul>
 			</nav>
 		</header>
-		<main class="Page__main">
+		<main class="Site__main">
 			<slot/>
 		</main>
 		<footer>
@@ -66,7 +66,7 @@
 		text-align: center;
 	}
 	
-	.Page {
+	.Site {
 		max-width: var(--content-width);
 		margin: baseline(1) auto 0;
 		padding: 0 15px;
@@ -75,18 +75,18 @@
 		font-family: var(--font-family-body);
 	}
 	
-	.Page__menu {
+	.SiteHeader__menu {
 		margin-bottom: baseline(1);
 	}
 		
-	.Page__logo {
+	.SiteHeader__logo {
 		display: block;
 		margin-bottom: baseline(1);
 		color: inherit;
 		text-decoration: none;
 	}
 	
-	.Page__logo-image {
+	.SiteHeader__logo-image {
 		display: block;
 		height: 80px;
 		margin: 0 auto;
@@ -96,7 +96,7 @@
 		}
 	}
 	
-	.Page__title {
+	.SiteHeader__title {
 		margin-right: auto;
 		margin-left: auto;
 		font-size: fontsize(1.5);
@@ -112,7 +112,7 @@
 		}
 	}
 	
-	.Page__main {
+	.Site__main {
 		margin-left: auto;
 		margin-right: auto;
 	}

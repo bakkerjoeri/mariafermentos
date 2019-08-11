@@ -4,10 +4,6 @@ module.exports = {
 		remark: {
 			externalLinksTarget: '_blank',
 			externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-			anchorClassName: 'icon icon-link',
-			plugins: [
-			// ...global plugins
-			]
 		}
 	},
 	plugins: [
@@ -15,8 +11,17 @@ module.exports = {
 			use: '@gridsome/source-filesystem',
 			options: {
 				path: 'content/posts/**/*.md',
-				route: '/:slug',
+				route: '/blog/:slug',
 				typeName: 'Post',
+				remark: {}
+			}
+		},
+		{
+			use: '@gridsome/source-filesystem',
+			options: {
+				path: 'content/pages/**/*.md',
+				route: '/:slug',
+				typeName: 'GeneralPage',
 				remark: {}
 			}
 		},

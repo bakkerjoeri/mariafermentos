@@ -9,14 +9,24 @@
 				Published on {{ $page.post.date }}
 			</div>
 			
-			<div
+			<Contents
 				class="Post__body"
-				v-html="$page.post.content"
+				:content="$page.post.content"
 			/>
-		</article?>
+		</article>
 		
 	</Layout>
 </template>
+
+<script>
+	import Contents from './../components/Contents.vue';
+	
+	export default {
+		components: {
+			Contents,
+		}
+	}
+</script>
 
 <page-query>
 query Post ($path: String!) {
