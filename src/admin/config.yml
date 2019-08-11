@@ -15,3 +15,18 @@ collections:
       - {label: "Preview image", name: "image", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "content", widget: "markdown"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Workshops"
+        name: "workshops"
+        file: "content/pages/workshops.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "content", widget: "markdown"}
+      - label: "About"
+        name: "about"
+        file: "content/pages/about.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "content", widget: "markdown"}

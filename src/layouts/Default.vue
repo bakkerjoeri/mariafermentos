@@ -21,7 +21,7 @@
 							class="Menu__link"
 							to="/"
 						>
-							Blog
+							Home
 						</g-link>
 					</li>
 					<li class="Menu__item">
@@ -30,6 +30,14 @@
 							to="/workshops"
 						>
 							Workshops
+						</g-link>
+					</li>
+					<li class="Menu__item">
+						<g-link
+							class="Menu__link"
+							to="/about"
+						>
+							About
 						</g-link>
 					</li>
 				</ul>

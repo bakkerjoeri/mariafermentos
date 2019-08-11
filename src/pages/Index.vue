@@ -71,7 +71,7 @@
 	}
 	
 	.PostPreview__meta {
-		font-family: var(--font-family-headers);
+		font-family: var(--font-family-labels);
 		line-height: baseline(1);
 	}
 </style>
