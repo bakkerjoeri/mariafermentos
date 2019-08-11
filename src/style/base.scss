@@ -10,7 +10,7 @@
 	--font-family-sans-serif: sans-serif;
 	--font-family-body: var(--font-family-serif);
 	--font-family-headers: var(--font-family-sans-serif);
-	--font-family-labels: var(--font-family-sans-serif);
+	--font-family-labels: var(--font-family-serif);
 	
 	@include breakpoint(tablet-up) {
 		--baseline: 34px;

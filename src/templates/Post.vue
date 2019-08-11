@@ -31,11 +31,13 @@ query Post ($path: String!) {
 </page-query>
 
 <style lang="scss">
+	@import './../style/mixins/fontsize.scss';
 	@import './../style/mixins/baseline.scss';
+	@import './../style/mixins/breakpoints.scss';
 	
 	.Post__title {
 		font-family: var(--font-family-headers);
-		font-size: calc(2 * #{var(--font-size)});
+		font-size: fontsize(2);
 		line-height: baseline(2);
 		text-align: center;
 	}
@@ -53,12 +55,35 @@ query Post ($path: String!) {
 	}
 	
 	.Post__body {
+		margin-bottom: baseline(3);
 		font-size: var(--font-size);
 		
 		h1, h2, h3, h4, h5, h6 {
 			margin-top: baseline(1);	
 			font-family: var(--font-family-headers);
 			line-height: baseline(2);
+		}
+		
+		h2 {
+			font-size: fontsize(1.5);
+			line-height: baseline(2);
+			
+			@include breakpoint(phablet-up) {
+				font-size: fontsize(2);
+				line-height: baseline(2);
+			}
+		}
+		
+		h3 {
+			font-size: fontsize(1.2);
+		}
+		
+		h3 {
+			font-size: fontsize(1.1);
+		}
+		
+		h4 {
+			font-size: fontsize(1);
 		}
 		
 		p, ol, ul, blockquote {

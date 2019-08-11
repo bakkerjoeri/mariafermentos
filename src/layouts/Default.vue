@@ -2,17 +2,38 @@
 	<div class="Page">
 		<header class="Page__header">
 			<g-link
-				class="Page__home-link"
+				class="Page__logo"
 				to="/"
 			>
 				<img
-					class="Page__logo"
+					class="Page__logo-image"
 					src="/images/logo.png"
 				/>
 				<h1 class="Page__title">
 					maria fermentos
 				</h1>
 			</g-link>
+			
+			<nav class="Page__menu Menu">
+				<ul class="Menu__items">
+					<li class="Menu__item">
+						<g-link
+							class="Menu__link"
+							to="/"
+						>
+							Blog
+						</g-link>
+					</li>
+					<li class="Menu__item">
+						<g-link
+							class="Menu__link"
+							to="/workshops"
+						>
+							Workshops
+						</g-link>
+					</li>
+				</ul>
+			</nav>
 		</header>
 		<main class="Page__main">
 			<slot/>
@@ -39,41 +60,81 @@
 	
 	.Page {
 		max-width: var(--content-width);
-		margin: 0 auto;
-		padding-right: 15px;
-		padding-left: 15px;
+		margin: baseline(1) auto 0;
+		padding: 0 15px;
+		font-size: fontsize(1);
+		line-height: baseline(1);
+		font-family: var(--font-family-body);
 	}
 	
-	
-	.Page__header {
-		margin-top: baseline(1.5);
+	.Page__menu {
 		margin-bottom: baseline(1);
 	}
+		
 	.Page__logo {
+		display: block;
+		margin-bottom: baseline(1);
+		color: inherit;
+		text-decoration: none;
+	}
+	
+	.Page__logo-image {
 		display: block;
 		height: 80px;
 		margin: 0 auto;
-	}
-	
-	.Page__home-link {
-		color: inherit;
-		text-decoration: none;
+		
+		@include breakpoint(mobile-only) {
+			display: none;
+		}
 	}
 	
 	.Page__title {
 		margin-right: auto;
 		margin-left: auto;
-		font-size: fontsize(2);
+		font-size: fontsize(1.5);
 		font-style: italic;
-		line-height: baseline(2);
+		font-family: var(--font-family-serif);
+		font-weight: normal;
+		line-height: baseline(1);
 		
-		@include breakpoint(tablet-up) {
-			font-size: fontsize(3);
+		@include breakpoint(phablet-up) {
+			font-size: fontsize(2);
+			line-height: baseline(2);
+			
 		}
 	}
 	
 	.Page__main {
 		margin-left: auto;
 		margin-right: auto;
+	}
+	
+	.Menu__items {
+		display: flex;
+		margin: 0;
+		padding: 0;
+		justify-content: center;
+		list-style: none;
+		border-top: 1px solid lightgray;
+		border-bottom: 1px solid lightgray;
+	}
+	
+	.Menu__item {
+		font-family: var(--font-family-labels);
+	}
+	
+	.Menu__link {
+		display: block;
+		padding: 10px 20px;
+		color: inherit;
+		text-decoration: none;
+		
+		&:hover, &:focus {
+			text-decoration: underline;
+		}
+	}
+	
+	.Menu__link--active {
+		font-weight: bold;
 	}
 </style>
