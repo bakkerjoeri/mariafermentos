@@ -3,7 +3,7 @@ title: Basic sourdough bread
 image: /images/breadparty.png
 date: 2019-08-10T21:24:51.873Z
 content: |-
-  ![](/images/breadparty.png)
+  Have a little intro here.
 
   ## Ingredients for 2 loaves
 
@@ -14,6 +14,10 @@ content: |-
   * 20 g of salt mixed with 30 g of cold water
 
   ## Process
+
+  This is what you're gonna make:
+
+  ![](/images/breadparty.png)
 
   1. Create the starter
      Your starter should be active, having been fed for at least the past  3 or 4 days. If it doubles in size around 2 hours after feeding, you’re good. Try to get about 200 grams of starter ready for baking.
