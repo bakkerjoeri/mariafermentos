@@ -13,8 +13,8 @@ content: >-
   the dough, and you'll go home with a fresh loaf! Since this fermentation
   process is completely natural the duration of this workshop is around **4 to 5
   hours**, and we usually start in the morning. Don't worry -- **snacks and
-  drinks are provided** to help you keep the energy up! ****Signing up costs
-  **€35**.
+  drinks are provided** to help you keep the energy up! Signing up costs
+  **35EUR**.
 
 
   ## Dates:
