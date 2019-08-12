@@ -5,7 +5,7 @@
 				class="SiteHeader__logo"
 				to="/"
 			>
-				<img
+				<g-image
 					class="SiteHeader__logo-image"
 					src="/images/logo.png"
 				/>
