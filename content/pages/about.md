@@ -1,8 +1,9 @@
 ---
 title: About
 content: >-
-  Hi there, and welcome to my fermentation and website. Bear with me, the site
-  is under construction. In the meantime, here you have a photo fo me doing what
-  I love the most: sniffing bread. Joke, it's eating the bread of course.
+  Hi there! Thanks for stopping by, and welcome to my foods and fermentation
+  website. Bear with me while the site is under construction. While I come up
+  with a better introduction and a few posts, here you have a photo fo me doing
+  what I love the most: sniffing bread. Joke, it's eating the bread of course.
 ---
 
