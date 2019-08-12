@@ -13,7 +13,7 @@
 				<h2 class="PostPreview__title">
 					{{ post.node.title }}
 				</h2>
-				<img
+				<g-image
 					class="PostPreview__image"
 					:src="post.node.image"
 				/>
