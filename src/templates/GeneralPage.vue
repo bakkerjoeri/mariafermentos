@@ -1,10 +1,6 @@
 <template>
 	<Layout>
 		<article class="Page">
-			<h1 class="Page__title">
-				{{ $page.generalPage.title }}
-			</h1>
-			
 			<Contents
 				class="Page__body"
 				:content="$page.generalPage.content"

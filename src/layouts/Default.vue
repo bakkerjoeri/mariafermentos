@@ -19,6 +19,7 @@
 					<li class="Menu__item">
 						<g-link
 							class="Menu__link"
+							exact-active-class="Menu__link--active"
 							to="/"
 						>
 							Home
@@ -27,6 +28,7 @@
 					<li class="Menu__item">
 						<g-link
 							class="Menu__link"
+							exact-active-class="Menu__link--active"
 							to="/workshops"
 						>
 							Workshops
@@ -35,6 +37,7 @@
 					<li class="Menu__item">
 						<g-link
 							class="Menu__link"
+							exact-active-class="Menu__link--active"
 							to="/about"
 						>
 							About
@@ -143,6 +146,7 @@
 	}
 	
 	.Menu__link--active {
-		font-weight: bold;
+		// text-decoration: underline;
+		border-bottom: 1px solid black;
 	}
 </style>
