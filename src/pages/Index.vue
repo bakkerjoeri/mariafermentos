@@ -29,7 +29,7 @@
 			edges {
 				node {
 					title
-					image
+					image (width: 690)
 					date (format: "D MMMM YYYY")
 					content
 					path

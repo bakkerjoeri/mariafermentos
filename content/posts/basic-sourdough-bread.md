@@ -1,6 +1,6 @@
 ---
 title: Basic sourdough bread
-image: /images/breadparty.png
+image: /images/breadparty.jpg
 date: 2019-07-14T21:24:51.873Z
 content: |-
   ## Ingredients for 2 loaves
@@ -11,7 +11,7 @@ content: |-
   * 600 g water at 32 °C
   * 20 g of salt mixed with 30 g of cold water
 
-  ![](/images/breadparty.png)
+  ![](/images/breadparty.jpg)
 
   ## Process
 
@@ -36,4 +36,3 @@ content: |-
 
   Leave each loaf to cool off for around 2 hours.
 ---
-
