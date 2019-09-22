@@ -20,8 +20,6 @@ content: >-
   ## Dates:
 
 
-  * 31st of August, Amsterdam (limited availability)
-
   * 28th of September, Amsterdam
 
   * 12th of October, Amsterdam
