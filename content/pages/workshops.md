@@ -11,7 +11,7 @@ content: >-
   During this workshop I will teach you the process of making a **basic
   sourdough loaf from scratch**. You will go hands on to make, shape and bake
   the dough, and you'll go home with a fresh loaf! Since this fermentation
-  process is completely natural the duration of this workshop is around **4 to 5
+  process is completely natural the duration of this workshop is around **5
   hours**, and we usually start in the morning. Don't worry -- **snacks and
   drinks are provided** to help you keep the energy up! Signing up costs
   **35EUR**.
@@ -20,9 +20,7 @@ content: >-
   ## Dates:
 
 
-  * 28th of September, Amsterdam
-
-  * 12th of October, Amsterdam
+  * 18th January 2020 - full
 
 
   To join one of the sessions, contact me at <mailto:mariafermentos@gmail.com>
