@@ -3,26 +3,29 @@
 @import './mixins/debug-baseline.scss';
 
 :root {
+	--site-width: 100%;
 	--content-width: calc(#{var(--font-size)} * 40);
 	--baseline: 32px;
 	--font-size: 16px;
 	--font-family-serif: Georgia, serif;
 	--font-family-sans-serif: sans-serif;
 	--font-family-body: var(--font-family-serif);
-	--font-family-headers: var(--font-family-sans-serif);
+	--font-family-headers: var(--font-family-serif);
 	--font-family-labels: var(--font-family-serif);
 	
 	@include breakpoint(tablet-up) {
 		--baseline: 34px;
 		--font-size: 17px;
+		--site-width: 960px;
 	}
 
 	@include breakpoint(laptop-up) {
 		--baseline: 36px;
 		--font-size: 18px;
+		--site-width: 1280px;
 	}
 }
 
-html {
-	// @include debug-baseline(var(--baseline));
-}
+// html {
+// 	@include debug-baseline(var(--baseline));
+// }

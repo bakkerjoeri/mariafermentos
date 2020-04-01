@@ -45,8 +45,15 @@ query Post ($path: String!) {
 	@import './../style/mixins/baseline.scss';
 	@import './../style/mixins/breakpoints.scss';
 	
+	.Post {
+		max-width: var(--content-width);
+		margin: 0 auto;
+	}
+
 	.Post__title {
+		margin-bottom: baseline(1);
 		font-family: var(--font-family-headers);
+		font-weight: 100;
 		font-size: fontsize(2);
 		line-height: baseline(2);
 		text-align: center;

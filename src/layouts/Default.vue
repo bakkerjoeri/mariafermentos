@@ -5,10 +5,6 @@
 				class="SiteHeader__logo"
 				to="/"
 			>
-				<g-image
-					class="SiteHeader__logo-image"
-					src="/images/logo.png"
-				/>
 				<h1 class="SiteHeader__title">
 					mariafermentos
 				</h1>
@@ -25,6 +21,7 @@
 							Home
 						</g-link>
 					</li>
+
 					<li class="Menu__item">
 						<g-link
 							class="Menu__link"
@@ -34,6 +31,7 @@
 							Workshops
 						</g-link>
 					</li>
+
 					<li class="Menu__item">
 						<g-link
 							class="Menu__link"
@@ -46,9 +44,11 @@
 				</ul>
 			</nav>
 		</header>
+
 		<main class="Site__main">
 			<slot/>
 		</main>
+
 		<footer>
 			
 		</footer>
@@ -70,7 +70,7 @@
 	}
 	
 	.Site {
-		max-width: var(--content-width);
+		max-width: var(--site-width);
 		margin: baseline(1) auto 0;
 		padding: 0 15px;
 		font-size: fontsize(1);

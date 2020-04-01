@@ -33,6 +33,11 @@ query GeneralPage ($path: String!) {
 	@import './../style/mixins/baseline.scss';
 	@import './../style/mixins/breakpoints.scss';
 	
+	.Page {
+		max-width: var(--content-width);
+		margin: 0 auto;
+	}
+
 	.Page__title {
 		font-family: var(--font-family-headers);
 		font-size: fontsize(2);
