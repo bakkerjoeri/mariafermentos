@@ -22,6 +22,7 @@
 		h1, h2, h3, h4, h5, h6 {
 			margin-top: baseline(1);	
 			font-family: var(--font-family-headers);
+			font-weight: 100;
 			line-height: baseline(2);
 		}
 		
