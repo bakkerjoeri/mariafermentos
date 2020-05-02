@@ -1,9 +1,9 @@
 ---
 title: Test recipe
 introduction: This a cool recipe that you should deffinitely try
-image: /images/2c6d4912-e545-4865-947b-21c922284095.jpg
+image: /images/focaccia.jpg
 date: 2020-05-02T11:33:31.436Z
-isDraft: true
+isDraft: false
 content: >-
   So this is a recipe, and it's very delicious recipe and this is where I tell
   my story about how this recipe filled my soul with joy and all that stuff.
