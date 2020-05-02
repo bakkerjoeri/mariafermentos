@@ -32,6 +32,8 @@ content: >-
   ![A picture showing people handling
   dough](/images/8996e35d-7178-4ed0-994c-40ae850490b6.jpg)
 
+
+
   ![a picture showing a few baked breads](/images/breadparty.jpg)
 ---
 
