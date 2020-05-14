@@ -13,8 +13,8 @@ content: >-
 
 
   Due to the current situation, I have stopped planning workshops for the time
-  being, but I am looking forward to resume as soon as it's safe for everyone's
-  health!
+  being, but I am looking forward to resuming as soon as it's safe for
+  everyone's health!
 
 
   In the meantime, follow my adventures on
@@ -28,10 +28,8 @@ content: >-
   Mariafermentos
 
 
-
   ![A picture showing people handling
   dough](/images/8996e35d-7178-4ed0-994c-40ae850490b6.jpg)
-
 
 
   ![a picture showing a few baked breads](/images/breadparty.jpg)
