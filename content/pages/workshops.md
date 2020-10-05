@@ -12,9 +12,8 @@ content: >-
   **snacks and drinks are provided** to help you keep the energy up!
 
 
-  Due to the current situation, I have stopped planning workshops for the time
-  being, but I am looking forward to resuming as soon as it's safe for
-  everyone's health!
+  Due to COVID-19, I have stopped planning workshops for the time being, but I
+  am looking forward to resuming as soon as it's safe for everyone's health!
 
 
   In the meantime, follow my adventures on
@@ -25,7 +24,7 @@ content: >-
   Take care and hopefully see you soon,
 
 
-  Mariafermentos
+  mariafermentos
 
 
   ![A picture showing people handling
